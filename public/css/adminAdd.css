@@ -1,0 +1,139 @@
+.body{
+  padding: 0;
+  margin: 0;
+  font-family: "Cabin";
+}
+
+.bodyLight{
+  color: #eaeaea;
+  background-color: #ff2e63;
+}
+
+.bodyDark{
+  background-color: #1b1717;
+  color: #eaeaea;
+}
+
+.inputAccInfoText{
+  width: 30%;
+  margin-left: 30px;
+  border-radius: 5px;
+  border: black solid 1px;
+  padding: 7px;
+}
+
+.inputAccInfoTextLight{
+  background-color: white;
+  color: black;
+}
+
+.inputAccInfoTextDark{
+  background-color: black;
+  color: white;
+}
+
+.inputAccInfoTextDark{
+  background-color: black;
+  color: white;
+  border: white solid 1px;
+}
+
+
+.head{
+  border-bottom: solid white 1px;
+  padding-bottom: 15px;
+}
+
+.addAccForm{
+  margin: 0 auto;
+  width: 100%;
+  padding: 50px;
+}
+
+
+.table-hover tbody tr:hover {
+  background-color: #ff80a0;
+}
+
+.addAccForm h1{
+  margin-bottom: 40px;
+}
+
+.form-control{
+  width: 25%;
+}
+
+.form-control-dark{
+  background-color: black;
+  color: white;
+}
+
+.form-control-dark:focus{
+  background-color: black;
+  color: white;
+}
+
+.loginBut{
+  margin-top: 15px;
+}
+
+.logoshiz{
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.logoshizLight{
+  color: black;
+  border-right: solid black 1px;
+}
+
+.logoshizDark{
+  color: white;
+  border-right: solid white 1px;
+}
+
+.navBarLight{
+  color: black;
+  background-color: #eaeaea;
+}
+
+.navBarDark{
+  color: white;
+  background-color: black;
+}
+
+.nav-link{
+  font-size: 15px;
+}
+
+.navLinkLight{
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.navLinkLight:hover{
+  background-color: #ff245b;
+  color: white;
+}
+
+.navLinkDark{
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.navLinkDark:hover{
+  background-color: white;
+  color: black;
+}
+
+.accDeets{
+  background-color: #ff245b;
+  color: white;
+}
+
+.accDeets:hover{
+  background-color: #ff80a0;
+  color: white;
+}

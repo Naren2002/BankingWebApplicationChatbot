@@ -1,0 +1,32 @@
+<html>
+
+<%- include('adminHeader') %>
+
+<body class="body bodyLight">
+	<%- include('customerNav') %>
+
+
+<form class = "addAccForm" action = "/customerPayLoans"  method = "post">
+	<h1 class='head'>Pay Loans</h1>
+	<div class="form-group row">
+			<label for="loantype" class="col-sm-2 col-form-label">Loan type</label>
+			<div class="col-sm-10">
+				<input type="text" name = "loantype" class="form-control" id="loantype" placeholder="idk">
+			</div>
+	</div>
+
+	<div class="form-group row">
+			<label for="ammount" class="col-sm-2 col-form-label">Amount</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name = "amount" id="ammount" placeholder = "100" value="">
+			</div>
+	</div>
+
+	<button type="submit" class="btn btn-outline-light">Pay</button>
+
+	</form>
+
+	<script src="js/darkmode.js"></script>
+</body>
+
+</html>

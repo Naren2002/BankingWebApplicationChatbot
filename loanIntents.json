@@ -1,0 +1,55 @@
+{"intents": [
+        {"tag": "eligibility",
+         "patterns": ["How eligible am I ?",
+            "eligibility criteria for home loans",
+             "factors considered for taking a home loan",
+              "determine my eligibility for a home loan"],
+         "responses": ["We will determine your Home Loan Eligibility largely by your income and repayment capacity. Other important factors include your age, qualification, number of dependants, your spouse's income (if any), assets & liabilities, savings history and the stability & continuity of occupation."],
+         "context_set": ""
+        },
+        {"tag": "emi",
+         "patterns": ["what is emi",
+            "what does the emi comprise of ?",
+             "what is within an emi ?",
+              "How much should I pay per month for a home loan",
+               "emi"],
+         "responses": ["EMI refers to the ‘Equated Monthly Installment’ which is the amount you will pay to us on a specific date each month till the loan is repaid in full. The EMI comprises of the principal and interest components which are structured in a way that in the initial years of your loan, the interest component is much larger than the principal component, while towards the latter half of the loan, the principal component is much larger."],
+         "context_set": ""
+       },
+       {"tag": "own contribution",
+        "patterns": ["what is own contribution"],
+        "responses": ["‘Own Contribution’ is the total cost of the property less home loan."],
+        "context_set": ""
+       },
+       {"tag": "home loan application",
+        "patterns": ["how make loan application"],
+        "responses": ["You could collect an application form from our nearest office or simply download it from our website and submit it yourself along with the supporting documents and the processing fee cheque at any bank office that is convenient to you. Alternatively you have the option to make an online application from anywhere in the world by clicking on ‘Instant Home Loan’ on our website and also know your Home Loan eligibility instantly."],
+        "context_set": ""
+       },
+       {"tag": "market value",
+        "patterns": ["what is market value"],
+        "responses": ["Market value refers to the estimated amount that is expected to be fetched on the property as per the prevailing market conditions."],
+        "context_set": ""
+       },
+       {"tag": "repay homeloan",
+        "patterns": ["repay home loan", "various methods for repayment", "various modes for repayment", "salary for repayment"],
+        "responses": ["For your convenience, HDFC offers various modes for repayment of the home loan. You may issue standing instructions to your banker to pay the installments through ECS (Electronic Clearing System), opt for direct deduction of monthly installments by your employer or issue post-dated cheques from your salary account."],
+        "context_set": ""
+       },
+       {"tag": "tax benefits home loan",
+        "patterns": ["eligible for tax benefits", "varying benefits yearly", "counsellor for tax benefits"],
+        "responses": ["Yes. You are eligible for tax benefits on the principal and interest components of your Home Loan under the Income Tax Act, 1961. As the benefits could vary each year, please do check with our Loan Counselor about the tax benefits which you could avail on your loan."],
+        "context_set": ""
+       },
+       {"tag": "security home loan",
+        "patterns": ["security to provide home loan"],
+        "responses": ["Security of the loan would generally be security interest on the property being financed by us and / or any other collateral / interim security as may be required by us. It is extremely important for you to ensure that the title to the property is clear, marketable and free from encumbrance. There should not be any existing mortgage, loan or litigation, which is likely to adversely affect the title to the property."],
+        "context_set": ""
+       },
+       {"tag": "agreement",
+        "patterns": ["agreement to sell", "agreement to sell means", "registering for agreement to sell"],
+        "responses": ["The ’Agreement to Sell’ in a property transaction is a legal document executed on a stamp paper that records in writing the understanding between the buyer and the seller and all the details of the property such as area, possession date, price etc. In many Indian states, the Agreement to Sell is required to be registered by law. We suggest that in your own interest you should register the Agreement within four months of the date of the Agreement at the office of the Sub Registrar appointed by the State Government, under the Indian Registration Act, 1908."],
+        "context_set": ""
+       }
+   ]
+}

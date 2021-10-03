@@ -1,0 +1,57 @@
+<html>
+
+<%- include('adminHeader') %>
+
+<body class = "body bodyLight">
+	<%- include('customerNav') %>
+
+	<form class = "addAccForm">
+		<h1 class = "head">Account Details</h1>
+		<div class="form-group row">
+			<label for="fullname" class="col-sm-2 col-form-label">Full Name</label>
+			<div class="col-sm-10">
+				<span class="form-control accDeets" id="fullname"> <%= name %> </span>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="accountnumber" class="col-sm-2 col-form-label">Account number</label>
+			<div class="col-sm-10">
+				<span class="form-control accDeets" id="accountnumber"><%= accNo %></span>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="ifsc" class="col-sm-2 col-form-label">IFSC Code</label>
+			<div class="col-sm-10">
+				<span class="form-control accDeets" id="ifsc"><%= ifscCode %></span>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="email" class="col-sm-2 col-form-label">E-mail Address</label>
+			<div class="col-sm-10">
+				<span class="form-control accDeets" id="accno"><%= emailAdd %></span>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="accounttype" class="col-sm-2 col-form-label">Account type</label>
+			<div class="col-sm-10">
+				<span class="form-control accDeets" id="accounttype"><%= accType %></span>
+			</div>
+		</div>
+
+		<div class="form-group row">
+			<label for="ammountbalance" class="col-sm-2 col-form-label">Account balance</label>
+			<div class="col-sm-10">
+				<span class="form-control accDeets" id="ammountbalance"><%= accBal %></span>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="opendate" class="col-sm-2 col-form-label">Open Date</label>
+			<div class="col-sm-10">
+				<span class="form-control accDeets" id="opendate"></span>
+			</div>
+		</div>
+	</form>
+	<script src="js/darkmode.js"></script>
+</body>
+
+</html>

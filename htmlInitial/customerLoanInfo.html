@@ -1,0 +1,63 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/adminAdd.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg justify-content-between navBarLight">
+		<div class="collapse navbar-collapse">
+			<span class="logoshiz logoshizLight">Banking Application</span>
+			<span class="logoshiz logoshizLight">Dashboard</span>
+			<a class="nav-link navLinkLight" href="customerAccount.html">Account details</a>
+			<a class="nav-link navLinkLight" href="customerTransactions.html">My Transactions</a>
+			<a class="nav-link navLinkLight" href="customerTransferAmount.html">Transfer Amount</a>
+			<a class="nav-link navLinkLight" href="customerPayee.html">Register a payee</a>
+			<a class="nav-link navLinkLight" href="customerRemovePayee.html">Remove Payee</a>
+			<a class="nav-link navLinkLight" href="customerPayLoans.html">Pay loans</a>
+			<a class="nav-link navLinkLight" href="customerLoanTransactions.html">Loan payments</a>
+			<a class="nav-link navLinkLight" href="customerLoanInfo.html">Loan info</a>
+			<a class="nav-link navLinkLight" href="" style = "text-align: right;">Log Out</a>
+			<button class="btn btn-dark btn-sm" id="darkBtn" name="button" onclick="darkMode()">Dark mode</button>
+		</div>
+	</nav>
+	<div class="addAccForm">
+		<h1 class='h1acc'>Loan Payments</h1>
+
+		<table class="table table-bordered table-hover">
+			<thead>
+				<tr>
+					<th scope="col">Loan Type</th>
+					<th scope="col">Loan Ammount</th>
+					<th scope="col">Transaction Date</th>
+					<th scope="col">Interest</th>
+					<th scope="col">Issued Date</th>
+					<th scope="col">Remaining Amount to be paid</th>
+				</tr>
+			</thead>
+			<tr>
+				<th scope="row">x</th>
+				<th scope="col">y</th>
+				<th scope="col">z</th>
+				<th scope="row">x</th>
+				<th scope="col">y</th>
+				<th scope="col">z</th>
+
+
+			</tr>
+
+
+		</table>
+
+	</div>
+	<script src="js/darkmode.js"></script>
+</body>
+
+</html>

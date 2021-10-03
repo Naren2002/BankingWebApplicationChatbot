@@ -1,0 +1,51 @@
+{"intents":[
+    {"tag":"borrow",
+     "patterns":["How much can i borrow in a indian education loan?", "Max range to borrow in a indian education loan",
+     "indian education loan max money to borrow", "borrowing in indian education loan","What is the maximum loan amount I can get for studies in India?"],
+     "responses":["To study in India, the maximum loan you can get is upto Rs. 10 lacs."],
+     "context_set":""  
+    },
+    {"tag":"eligibility",
+     "patterns":["How eligible am I for indian education loan?","What is the eligibility criteria for indian educational loans? ",
+        "What are the factors considered for taking a indian educational loan ?",
+         "How do you determine my eligibility for a indian educational loan ?"],
+     "responses":["If you are an Indian resident/citizen, have got admission in a graduate/ post graduate course in a college/institute/university which is recognized by the UGC/AICTE/AIBMS or ICMR, then you are eligible for the HDFC Bank Student Loan for Indian Education."],
+     "context_set":""   
+
+    },
+    {"tag":"coverage",
+     "patterns":["what expenses does the indian education loan cover?","what expenses all does the indian educational loan cover","Which course related expense does the indian education loan cover ?","expenses coming under the education loan"
+    ,"what all can i use the money for indian education loan except courses","what non course fees are covered in indian educational loan","expenses covered in indian educational loan","expenses under indian  educational loan"],
+     "responses":["Apart from the basic course fee payable to the institution where you decide to study, the following expenses will be covered under the loan:Exam/Library/Lab fees,Caution deposit / Refundable deposit asked by the institution / Building fund - supported by Institution bills / receipts,Purchase of Books/equipments/instrument/uniforms,Travel expenses/passage money for studies abroad,Purchase of computers - essential for completion of the course,Insurance,Miscellaneous expenses related to the course - like study tours, project work, thesis, etc."],
+     "context_set":""   
+
+    },
+    {"tag":"Courses",
+     "patterns":["which courses can i take for indian educational loan","indian education loan available for what courses","courses alloted for indian educational loan",
+    "coures available in indian educational loan","courses i can avail indian education loan for","what course can be taken for indian educational loan"],
+     "responses":["You can take a Education Loan for Indian education on the following courses:Management Courses (Full-Time) – Graduation + Post Graduation,Engineering Courses ( Government + Private ) - Graduation,Medicine - Graduation + Post Graduation,Masters in Computer Application ( MCA / MCM ),Architecture - Graduation + Post Graduation,Hotel and Hospitality - Graduation + Post Graduation,Agriculture - Graduation + Post Graduation,Pure Science - Graduation + Post Graduation"],
+     "context_set":""   
+
+    },
+    {"tag":"Co-applicant",
+     "patterns":["coapplicant needed for educational loan?","do i need a guardian for educational loan","parents needed for educational loan?",
+        "coapplicant required in educational loan","any witness required for educational loan"],
+     "responses":["Yes a co applicant is required for all full time courses. Co-applicant could be Parent/ Guardian or Spouse/ Parent-in-law (if married)"],
+     "context_set":""
+    },
+    {"tag":"repay_time",
+     "patterns":["How long can take to repay educational loan","how much time is there for educational loan","tenure time for educational loan","educational loan repay time",
+        "how much time can we take to pay educational loan","time alloted for repaying educational loan"],
+     "responses":["The maximum repayment tenures are as below: For loans upto Rs. 7.50 lacs - upto 10 years,For loans above Rs. 7.50 lacs - upto 15 years"],
+     "context_set":""   
+    },
+    {"tag":"collateral educational loan",
+     "patterns":["What security do I need to provide to obtain a educational Loan?","securities to submit for educational loan","collateral to provide for educational loan","collateral needed for educational loan",
+        "security requirement for educational loan"],   
+     "responses":["For loans up to Rs. 4 lakh - No collateral or Third Party Guarantee is required, For loans from Rs. 4 lakh to Rs. 7.5 lakh – No collateral required, however Third Party Guarantee is required, For loans above Rs. 7.5 lakh – collateral is required. You can choose from any of the following acceptable collaterals: Residential Property , HDFC Bank Fixed Deposit ,  LIC/NSC/KVP "],   
+     "context_set":""   
+    }
+
+]
+
+}

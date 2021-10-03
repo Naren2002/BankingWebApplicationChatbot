@@ -1,0 +1,25 @@
+<html>
+
+<%- include('adminHeader') %>
+
+<body class = "body bodyLight">
+	<%- include('customerNav') %>
+
+
+		<form class="addAccForm" action = "/chat" method = "post">
+			<h1 class='head'>Give your message</h1>
+			<div class="form-group row">
+				<label for="msg" class="col-sm-2 col-form-label">Message</label>
+				<div class="col-sm-10">
+					<input type="text" name = "msg" class="form-control" id="payeename" value="">
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-outline-light">Send</button>
+
+		</form>
+
+	<script src="js/darkmode.js"></script>
+</body>
+
+</html>

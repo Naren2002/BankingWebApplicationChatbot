@@ -1,0 +1,163 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me whatever you like.", "I'm blubber!", "I'm blubber"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!."],
+         "context_set": ""
+       },
+       {"tag": "navigateAccount",
+        "patterns": ["show me my account details", "show me my account balance", "how much money do I have", "what is my ifsc code", "what's my account type", "what's my account number"],
+        "responses": ["http://localhost:3000/customerAccount"],
+        "context_set": ""
+      },
+      {"tag": "home loan",
+       "patterns": ["home loan eligible", "emi for home loan", "own contribution", "loan application for home loans", "tax benefits for home loan", "security to provide for home loans", "repayment of home loans"],
+       "responses": ["home loan"],
+       "context_set": ""
+      },
+      {"tag":"personal loan",
+        "patterns": ["How eligible am I for personal loan?","How much can i borrow in a personal loan?","How can i repay personal loan?",
+                "How long can take to repay personal loan","how long  for processing personal loan"],
+        "responses":["personal loan"],
+        "context_set":""
+      },
+      {"tag":"buisness growth loan",
+       "patterns": ["how long  for processing buisness growth  loan","securities to submit for buisness growth loan","what account is preferred for buisness growth loan",
+        "can i repay buisness growth loan earlier?"],
+       "responses":["buisness growth loan"],
+       "context_set":""
+      },
+      {"tag":"indian education loan",
+       "patterns":["How much can i borrow in a indian education loan?","How eligible am I for indian education loan?","what expenses does the indian education loan cover?","which courses can i take for indian educational loan",
+        "coapplicant needed  educational loan?","How long can take to repay indian educational loan","What security do I need to provide to obtain a educational Loan?"],
+       "responses":["indian education loan"],
+       "context_set":""
+
+      },
+      {"tag":"foreign education loan",
+        "patterns":["How much can i borrow in a foreign education loan?","How eligible am I for foreign education loan?","what expenses does the foreign education loan cover?","which courses can i take for foreign educational loan",
+          "coapplicant needed for foreign educational loan?","How long can take to repay foreign educational loan","What security do I need to provide to obtain a foreign educational Loan?"],
+         "responses":["foreign education loan"],
+        "context_set":""
+
+       },
+
+       {"tag":"Access denied",
+        "patterns":["what can i do when i get access denied message","access denied message in my account",
+        "access denied message ","access denied error","access denied"],
+        "responses":["The possible reasons for this are: •You have not used the NetBanking facility for more than 999 days (in this case you need to attempt logging in again after 24 hrs). •You have entered the wrong IPIN (password) five times (in this case you need to attempt logging in again after 24 hrs).  •If you have forgotten your IPIN, then we regenerate the IPIN based on an authenticated request from you"],
+        "context_set":""
+
+       },
+
+       {"tag":"pin block",
+        "patterns":["how to block pin","how to unregister","pin blocking","unregistering","account pin block","account unregister",
+       "unregister account","what to do to block pin"],
+        "responses":["We will need a written instruction from you to block your IPIN. Alternatively, you can contact our PhoneBanking Services."],
+        "context_set":""
+
+       },
+
+       {"tag":"pin not working",
+           "patterns":["my pin not working","what to do if my pin is not working","wrong pin","pin error","password not working"
+           ,"password error"],
+           "responses":["Your IPIN (password) may not work if:•You have not entered the same lower or upper case as mentioned in the IPIN envelope sent to you. Remember the IPIN password is case sensitive.•You have not accessed your account for more than 999 days (in this case you need to attempt logging in again after 24 hrs)."],
+           "context_set":""
+
+          },
+
+          {"tag":"repayment mode change",
+           "patterns":["how to change the mode of repayment for a loan","changing mode of repayment","mode of repayment changed"
+           ,"changing repayment mode"],
+           "responses":["In the event that you wish to change the mode of repayment/bank account for your loan repayment, you may visit the nearest the Retail Loan Service Center and submit your request with the revised account mandate/instructions."],
+           "context_set":""
+
+          },
+
+          {"tag":"neft",
+           "patterns":["what is neft","neft meaning","meaning of neft"],
+           "responses":["The National Electronic Funds Transfer (NEFT) system is a nation-wide funds transfer system to facilitate transfer of funds from any bank branch to any other bank branch."],
+           "context_set":""
+          },
+
+          {"tag":"si",
+           "patterns":["what is SI"],
+           "responses":["SI stands for Standing Instructions. It is one of the modes you can use to repay a loan, wherein your HDFC Bank account is directly debited for the EMI amounts, based on your specific instructions in the form of the Standing Instructions Mandate."],
+           "context_set":""
+          },
+
+          {"tag":"guarantor",
+           "patterns":["guarantor"],
+           "responses":["A Guarantor is a person who guarantees to pay for someone else's debt if he or she should default on a loan obligation."],
+           "context_set":""
+          },
+
+          {"tag":"pledge",
+           "patterns":["pledge"],
+           "responses":["A right over the security is created in favour of HDFC Bank. Hence shares cannot be transferred or sold by the customer or shareholder."],
+           "context_set":""
+          },
+
+          {"tag":"Depledge",
+           "patterns":["depledge"],
+           "responses":["Removal of a pledge from the security to regain the rights over the security is called de-pledge.*Conditions Apply"],
+           "context_set":""
+          },
+
+          {"tag":"amortization",
+           "patterns":["amortization"],
+           "responses":["Amortization is paying off debts in regular instalments over a period of time."],
+           "context_set":""
+          },
+
+          {"tag":"rtgs",
+           "patterns":["rtgs"],
+           "responses":["RTGS is the Real Time Gross Settlement which is used for the transfer of amounts of Rs. 1,00,000 or more from one bank account to another bank account (any bank located anywhere in India if attached with an Internet system) at very minimal charges. The amount is credited into the beneficiary's account in real time. For amounts less than Rs. 1,00,000 we use NEFT( National Electronic Fund Transfer)."],
+           "context_set":""
+         },
+         {"tag": "transferMoney",
+          "patterns": ["I want to transfer money"],
+          "responses": ["transferMoney101"],
+          "context_set": ""
+        },
+        {"tag": "pay loan",
+         "patterns": ["I want to pay loans right here"],
+         "responses": ["payLoan101"],
+         "context_set": ""
+       },
+       {"tag": "register payee",
+        "patterns": ["I want to register a payee"],
+        "responses": ["registerPayee101"],
+        "context_set": ""
+      },
+      {"tag": "remove payee",
+       "patterns": ["I want to remove a payee"],
+       "responses": ["removePayee101"],
+       "context_set": ""
+      }
+   ]
+}

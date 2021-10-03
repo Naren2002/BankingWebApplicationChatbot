@@ -1,0 +1,40 @@
+<html>
+
+<%- include('adminHeader') %>
+
+<body class="body bodyLight">
+
+<%- include('customerNav') %>
+
+  <div class="addAccForm">
+    <h1 class='head'>Loan Transactions</h1>
+    <table class="table table-light table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Loan Type</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Transaction Date</th>
+        </tr>
+      </thead>
+      <% if (allLoansEjs.length == 0){ %>
+        <tr>
+          <th scope="col">No content to be displayed</th>
+        </tr>
+      <% } else{%>
+        <% for(var i = 0; i < allLoansEjs.length; i++){ %>
+          <tr>
+            <th scope = "col"> <%= allLoansEjs[i]["loanId"].loanType %> </th>
+            <th scope = "col"> <%= allLoansEjs[i]["amount"] %> </th>
+            <th scope = "col"> <%= allLoansEjs[i]["transDate"] %> </th>
+          </tr>
+          <% } %>
+      <% } %>
+
+
+    </table>
+
+  </div>
+  <script src="js/darkmode.js"></script>
+</body>
+
+</html>

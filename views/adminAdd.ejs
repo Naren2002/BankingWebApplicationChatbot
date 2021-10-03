@@ -1,0 +1,59 @@
+<html>
+
+<%- include('adminHeader') %>
+
+<body class = "body bodyLight">
+
+	<%- include('adminNav') %>
+
+	<form class="addAccForm" action = "/adminAdd" method = "POST">
+		<h1 class="head">Add an account</h1>
+		<div class="form-group row">
+			<label for="inputPassword" class="col-sm-2 col-form-label">Full name</label>
+			<div class="col-sm-10">
+				<input type="text" name = "addFName" class="form-control" id="inputPassword" placeholder="Ex: John">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputAccNo" class="col-sm-2 col-form-label">Account number</label>
+			<div class="col-sm-10">
+				<input type="number" name = "addAccNo" class="form-control" id="inputAccNo" placeholder="1347286390">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputIFSC" class="col-sm-2 col-form-label">IFSC Code</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name = "addIfscCode" id="inputIFSC" placeholder="AF9898FOI">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputEmail" class="col-sm-2 col-form-label">E-mail Address</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" name = "addEmailAdd" id="inputEmail" placeholder="ex: john@gmail.com">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+			<div class="col-sm-10">
+				<input type="password" name="addPass" class="form-control" id="inputPassword" placeholder="">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputAccTypes" class="col-sm-2 col-form-label">Account type</label>
+			<div class="col-sm-10">
+				<input type="text" name = "addAccType" class="form-control" id="inputAccTypes" placeholder="Account type">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword" class="col-sm-2 col-form-label">Account balance</label>
+			<div class="col-sm-10">
+				<input type="number" name = "addAccBal" class="form-control" id="inputPassword" placeholder="">
+			</div>
+		</div>
+		<button type="submit" name = "addSub" class="btn btn-outline-light">Submit</button>
+	</form>
+	<script src="js/darkmode.js"></script>
+
+</body>
+
+</html>

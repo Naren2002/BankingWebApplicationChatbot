@@ -1,0 +1,54 @@
+<html>
+
+<%- include('adminHeader') %>
+
+<body class="body bodyLight">
+
+	<%- include('adminNav') %>
+
+<div class="addAccForm">
+	<h1 class="head">Loans Information</h1>
+	<form class="" action="/adminViewLoans" method="post">
+		<label>Enter account number<input type="text" placeholder="ex: 12307" class = "inputAccInfoText inputAccInfoTextLight" name="accno"></label><br><br>
+		<button type="submit" class="btn btn-outline-light" name="button">Submit</button><br><br />
+	</form>
+
+	<table class="table table-hover table-striped table-light">
+		<thead>
+			<tr>
+				<th scope="col">Account Number</th>
+				<th scope="col">Loan type</th>
+				<th scope="col">Loan Amount</th>
+				<th scope="col">Interest</th>
+				<th scope="col">Issued Date</th>
+				<th scope="col">Remaining Amount to be paid</th>
+			</tr>
+		</thead>
+
+		<% if (allLoansEjs.length == 0){ %>
+			<tr>
+				<th scope="col">No content to be displayed</th>
+			</tr>
+		<% } else{%>
+			<% for(var i = 0; i < allLoansEjs.length; i++){ %>
+				<tr>
+
+					<th scope = "col"> <%= allLoansEjs[i]["accNo"] %> </th>
+					<th scope = "col"> <%= allLoansEjs[i]["loanType"] %> </th>
+					<th scope = "col"> <%= allLoansEjs[i]["loanAm"] %> </th>
+					<th scope = "col"> <%= allLoansEjs[i]["itst"] %> </th>
+					<th scope = "col"> <%= allLoansEjs[i]["date"] %> </th>
+					<th scope = "col"> <%= allLoansEjs[i]["remAmm"] %> </th>
+				</tr>
+				<% } %>
+		<% } %>
+
+
+</div>
+
+
+</table>
+<script src="js/darkmode.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body{
+  background-color: #eaeaea;
+  padding: 0;
+  margin: 0;
+  color: #eaeaea;
+}
+
+small{
+  color: #eaeaea;
+}
+
+.loginContainer{
+  background-color: #ff2e63;
+  margin: 0 10%;
+  margin-top: 12%;
+  width: 80%;
+  padding: 50px;
+  border-radius: 10px;
+  font-family: "Cabin";
+}
+
+.loginBut{
+  margin-top: 15px;
+}
+
+.col h1{
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 20%;
+  vertical-align: middle;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+}
+
+.col1{
+  border-right: solid white 1px;
+}
+
+.col2{
+  padding-left: 5%;
+}

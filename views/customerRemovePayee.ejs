@@ -1,0 +1,33 @@
+<html>
+
+<%- include('adminHeader') %>
+
+<body class = "body bodyLight">
+	<%- include('customerNav') %>
+
+
+		<form class="addAccForm" action = "/customerRemovePayee" method = "post">
+			<h1 class='head'>Remove a Payee</h1>
+			<div class="form-group row">
+				<label for="payeename" class="col-sm-2 col-form-label">Payee</label>
+				<div class="col-sm-10">
+					<input type="text" name = "payee" class="form-control" id="payeename" value="">
+
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<label for="ammountnumber" class="col-sm-2 col-form-label">Account number</label>
+				<div class="col-sm-10">
+					<input type="text" name = "accnum" class="form-control" id="ammountnumber" value="">
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-outline-light">Remove</button>
+
+		</form>
+
+	<script src="js/darkmode.js"></script>
+</body>
+
+</html>

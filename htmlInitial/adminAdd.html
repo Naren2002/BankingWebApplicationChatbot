@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/adminAdd.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body class = "body bodyLight">
+	<nav class="navbar navbar-expand-lg justify-content-between navBarLight">
+		<div class="collapse navbar-collapse">
+			<span class="logoshiz logoshizLight">Banking Application</span>
+			<span class="logoshiz logoshizLight">Admin Dashboard</span>
+			<a class="nav-link navLinkLight" href="adminAdd.html">Add an account</a>
+			<a class="nav-link navLinkLight" href="adminDelete.html">Close an account</a>
+			<a class="nav-link navLinkLight" href="adminGrantLoan.html">Grant Loan </a>
+			<a class="nav-link navLinkLight" href="adminView.html">View account</a>
+			<a class="nav-link navLinkLight" href="adminDepositMoney.html">Deposit money</a>
+			<a class="nav-link navLinkLight" href="adminWithdraw.html">Withdraw money</a>
+			<a class="nav-link navLinkLight" href="adminViewLoans.html">View loans</a>
+			<a class="nav-link navLinkLight" href="logout.html" style="text-align: right;">Log Out</a>
+			<button class="btn btn-dark" id="darkBtn" name="button" onclick="darkMode()">Dark mode</button>
+		</div>
+	</nav>
+	<form class="addAccForm">
+		<h1 class="head">Add an account</h1>
+		<div class="form-group row">
+			<label for="inputPassword" class="col-sm-2 col-form-label">Full name</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="inputPassword" placeholder="Ex: John">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputAccNo" class="col-sm-2 col-form-label">Account number</label>
+			<div class="col-sm-10">
+				<input type="number" class="form-control" id="inputAccNo" placeholder="1347286390">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputIFSC" class="col-sm-2 col-form-label">IFSC Code</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="inputIFSC" placeholder="AF9898FOI">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputEmail" class="col-sm-2 col-form-label">E-mail Address</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" id="inputEmail" placeholder="ex: john@gmail.com">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+			<div class="col-sm-10">
+				<input type="password" class="form-control" id="inputPassword" placeholder="">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputAccTypes" class="col-sm-2 col-form-label">Account type</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" id="inputAccTypes" placeholder="Account type">
+			</div>
+		</div>
+		<div class="form-group row">
+			<label for="inputPassword" class="col-sm-2 col-form-label">Account balance</label>
+			<div class="col-sm-10">
+				<input type="number" class="form-control" id="inputPassword" placeholder="">
+			</div>
+		</div>
+		<button type="submit" class="btn btn-outline-light">Submit</button>
+	</form>
+	<script src="js/darkmode.js"></script>
+
+</body>
+
+</html>

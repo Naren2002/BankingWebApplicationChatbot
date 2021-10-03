@@ -1,0 +1,58 @@
+
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/adminAdd.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body class="body bodyLight">
+	<nav class="navbar navbar-expand-lg justify-content-between navBarLight">
+		<div class="collapse navbar-collapse">
+			<span class="logoshiz logoshizLight">Banking Application</span>
+			<span class="logoshiz logoshizLight">Admin Dashboard</span>
+			<a class="nav-link navLinkLight" href="adminAdd.html">Add an account</a>
+			<a class="nav-link navLinkLight" href="adminDelete.html">Close an account</a>
+			<a class="nav-link navLinkLight" href="adminGrantLoan.html">Grant Loan </a>
+			<a class="nav-link navLinkLight" href="adminView.html">View account</a>
+			<a class="nav-link navLinkLight" href="adminDepositMoney.html">Deposit money</a>
+			<a class="nav-link navLinkLight" href="adminWithdraw.html">Withdraw money</a>
+			<a class="nav-link navLinkLight" href="adminViewLoans.html">View loans</a>
+			<a class="nav-link navLinkLight" href="" style="text-align: right;">Log Out</a>
+			<button class="btn btn-dark" id="darkBtn" name="button" onclick="darkMode()">Dark mode</button>
+		</div>
+	</nav>
+<div class="addAccForm">
+	<h1 class='head'>Account Information</h1>
+	<label>Enter account number<input class="inputAccInfoText inputAccInfoTextLight" placeholder="ex: 1234" type="text" name="accno"><br />
+	<input class = "btn btn-outline-light" type="submit" name="accsubmit" style="margin-top: 20px;"></label><br><br>
+
+	<table class="table table-hover table-striped table-light">
+		<thead>
+			<tr>
+				<th scope="col">Account Number</th>
+				<th scope="col">Holder name</th>
+				<th scope="col">Balance</th>
+			</tr>
+		</thead>
+		<tr>
+			<th scope="col">x</th>
+			<th scope="col">y</th>
+			<th scope="col">z</th>
+		</tr>
+
+
+	</table>
+
+</div>
+<script src="js/darkmode.js"></script>
+</body>
+
+</html>

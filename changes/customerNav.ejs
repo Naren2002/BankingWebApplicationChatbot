@@ -1,0 +1,28 @@
+<script type="text/javascript" src="js/chat-script.js"></script>
+<style>
+.frame{
+   right: 0px;
+   bottom: 0px;
+   display: none;
+   position: absolute;
+}
+
+</style>
+<nav class="navbar navbar-expand-lg justify-content-between navBarLight">
+  <div class="collapse navbar-collapse">
+    <span class="logoshiz logoshizLight">Banking Application</span>
+    <span class="logoshiz logoshizLight">Dashboard</span>
+    <a class="nav-link navLinkLight" href="/customerAccount">Account details</a>
+    <a class="nav-link navLinkLight" href="/customerTransactions">My Transactions</a>
+    <a class="nav-link navLinkLight" href="/customerTransferAmount">Transfer Amount</a>
+    <a class="nav-link navLinkLight" href="/customerPayee">Register a payee</a>
+    <a class="nav-link navLinkLight" href="/customerRemovePayee">Remove Payee</a>
+    <a class="nav-link navLinkLight" href="/customerPayLoans">Pay loans</a>
+    <a class="nav-link navLinkLight" href="/customerLoanTransactions">Loan payments</a>
+    <a class="nav-link navLinkLight" href="/customerLoanInfo">Loan info</a>
+    <a class="nav-link navLinkLight" href="/customerLogout" style = "text-align: right;">Log Out</a>
+    <img class="rounded-circle" id='sticky' src="images/chatimage1.png" width="30" height="30" onclick="openForm()">&ensp;
+    <button class="btn btn-dark btn-sm" id="darkBtn" name="button" onclick="darkMode()"> Dark mode</button>
+  </div>
+</nav>
+<iframe src="/chatbox" width="305px" height="375px" style="border: none;" class='frame' id='frames'></iframe>

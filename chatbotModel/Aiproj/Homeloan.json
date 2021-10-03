@@ -1,0 +1,20 @@
+{"intents": [
+    {"tag": "eligibility",
+     "patterns": ["How eligible am I for home loan?",
+        " eligibility criteria for home loans? ",
+         "actors considered for taking a home loan ?",
+          "How do you determine my eligibility for a home loan ?"],
+     "responses": ["We will determine your Home Loan Eligibility largely by your income and repayment capacity. Other important factors include your age, qualification, number of dependants, your spouse's income (if any), assets & liabilities, savings history and the stability & continuity of occupation."],
+     "context_set": ""
+    },
+    {"tag": "emi",
+     "patterns": ["what is emi",
+        "what does the emi comprise of ?",
+         "what is within an emi ?",
+          "How much should I pay per month for a home loan",
+           "emi"],
+     "responses": ["EMI refers to the ‘Equated Monthly Installment’ which is the amount you will pay to us on a specific date each month till the loan is repaid in full. The EMI comprises of the principal and interest components which are structured in a way that in the initial years of your loan, the interest component is much larger than the principal component, while towards the latter half of the loan, the principal component is much larger."],
+     "context_set": ""
+    }
+]
+}

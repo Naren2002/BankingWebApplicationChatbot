@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+<%- include('adminHeader') %>
+<head>
+  <title>Chatsystem</title>
+  <link rel="stylesheet" href="css/chatbox.css">
+  <script type="text/javascript" src="js/chat-script.js"></script>
+  <style media="screen">
+    .chatbotInput{
+      margin: 10px;
+      padding: 5px;
+      border: 1px solid white;
+      border-radius: 6px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <% if(userMsgs.length > 0){ %>
+      <div id="chatbox" class="container" style="display: block;">
+        <div class="chat">
+          <div class="chat-header">
+            What's on your mind ?
+          </div>
+          <div class="chat-box">
+            <div id="textbox">
+              <% for(var i = 0; i<userMsgs.length; i++){ %>
+                  <div class="chat-r">
+                    <div class="sp"></div>
+                    <p class="mess mess-r"><%= userMsgs[i] %></p>
+                  </div>
+                  <% if (serverMsgs[i] == "transferMoney101"){ %>
+                    <div class="mess mess-l">
+                      <form action = '/chatboxTransferMoney' method = 'post'>
+                        <input class = 'chatbotInput' placeholder = 'Account Number' type = 'text' name = 'sendAcc'><br>
+                        <input class = 'chatbotInput' placeholder = 'Amount' type = 'number' name = 'amt'><br>
+                        <button class = 'chatbotInput btn btn-outline-light' type = 'submit'>Submit</button>
+                      </form>
+                    </div>
+                  <% }else if (serverMsgs[i] == "payLoan101"){ %>
+                    <div class="mess mess-l">
+                      <form action = '/chatboxPayLoans' method = 'post'>
+                        <input class = 'chatbotInput' placeholder = 'Loan Type' type = 'text' name = 'loantype'><br>
+                        <input class = 'chatbotInput' placeholder = 'Amount' type = 'number' name = 'amount'><br>
+                        <button class = 'chatbotInput btn btn-outline-light' type = 'submit'>Submit</button>
+                      </form>
+                    </div>
+                  <% }else if (serverMsgs[i] == "registerPayee101"){ %>
+                    <div class="mess mess-l">
+                      <form action = '/chatboxRegisterPayee' method = 'post'>
+                        <input class = 'chatbotInput' placeholder = 'Full Name' type = 'text' name = 'name'><br>
+                        <input class = 'chatbotInput' placeholder = 'Account Number' type = 'number' name = 'accNo'><br>
+                        <input class = 'chatbotInput' placeholder = 'Account Type' type = 'text' name = 'acctype'><br>
+                        <input class = 'chatbotInput' placeholder = 'IFSC Code' type = 'text' name = 'ifsc'><br>
+                        <button class = 'chatbotInput btn btn-outline-light' type = 'submit'>Submit</button>
+                      </form>
+                    </div>
+                  <% }else if (serverMsgs[i] == "removePayee101"){ %>
+                    <div class="mess mess-l">
+                      <form action = '/chatboxRemovePayee' method = 'post'>
+                        <input class = 'chatbotInput' placeholder = 'Payee' type = 'text' name = 'Payee Name'><br>
+                        <input class = 'chatbotInput' placeholder = 'Account Number' type = 'number' name = 'accnum'><br>
+                        <button class = 'chatbotInput btn btn-outline-light' type = 'submit'>Submit</button>
+                      </form>
+                    </div>
+                  <% }else{ %>
+                    <div class="chat-l">
+                      <p class="mess mess-l"><%= serverMsgs[i] %></p>
+                    </div>
+
+                  <% } %>
+              <% } %>
+            </div>
+          </div>
+          <form class="" action="/chatbox" method="post">
+          <div class='chat-footer'>
+              <input type="text" name="msg" id="customermsg">
+              <button type = "submit"> > </button>
+          </div>
+        </form>
+        </div>
+
+      </div>
+  <% }else{ %>
+    <form class="" action="/chatbox" method="post">
+      <div id="chatbox" class="container" style="display: block;">
+        <div class="chat">
+          <div class="chat-header">
+            What's on your mind ?
+          </div>
+
+          <div class="chat-box">
+            <div id="textbox">
+
+
+            </div>
+          </div>
+          <div class='chat-footer'>
+            <input type="text" name="msg" id="customermsg">
+            <button type = "submit"> > </button>
+          </div>
+        </div>
+
+      </div>
+    </form>
+<% } %>
+
+</body>
+</html>

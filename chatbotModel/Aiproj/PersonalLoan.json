@@ -1,0 +1,44 @@
+{"intents": [
+    {"tag": "eligibility",
+        "patterns": ["How  eligible am I for personal loan?",
+           " eligibility criteria for personal loans? ",
+            " factors considered for taking a personal loan ?",
+             "How do you determine my eligibility for a personal loan ?"],
+        "responses": ["If you are a self-employed professional the criteria is your age should be (21-65) years old, If you are a salried person the criteria is your age should be (21-60) years old"],
+        "context_set": ""
+       },
+    {"tag": "borrow",
+        "patterns": ["How much can i borrow in a personal loan?", "Max range to borrow in a personal loan",
+             "personal loan max money to borrow", "borrowing in personal loan"],
+        "responses": ["You can take a loan ranging from Rs. 50,000 to Rs. 40,00,000."],
+        "context_set": ""
+       },
+       {"tag": "repay",
+           "patterns":["How can i repay personal loan?","repaying personal loan"," payback personal loan","paying personal loan",
+        "personal loan paying back","pay personal loan"],
+           "responses":["You pay the loan in equal monthly instalments (EMIs). The loan will be paid through post-dated cheques. You can also pay through ECS or a standing instruction to debit your HDFC Bank account with the EMI amount."],
+           "context_set": ""
+
+       },
+    {"tag": "repay_time",
+        "patterns":["How long can take to repay personal loan","how much time is there for personal loan","wait time for repay of personal loan","personal loan repay time",
+        "much time can we take to pay personal loan","time alloted for repaying personal loan"],
+        "responses":["We offer flexible repayment options ranging from 12 to 60 months, depending on the customer’s profile."],
+        "context_set":""
+    },
+    {"tag":"reapy_earlier",
+        "patterns":["can i repay personal loan earlier?","early pay of personal loan","personal loan paying early",
+            "allowed to pay personal loan earlier?","personal loan paying early"],
+        "responses":["Yes, you can choose to repay your loan anytime after 12 months of taking the loan and after you have paid 12 EMIs along with applicable foreclosure charges. Please note Loan can be foreclosed by issuing a Demand draft / cheque at the branch; kindly note that cash beyond Rs. 49000/- will not be accepted for loan repayment against part prepayment/ full payment / matured loan closure payment. Any payment above Rs. 49000/- should be made vide Account payee Cheque / Pay order /Demand draft."],    
+        "context_set":""        
+    } ,  
+    {"tag":"process",
+        "patterns":["how long  for processing personal loan","time for my allocation of personal loan","personal loan time for processing",
+        "how long for assigning a personal loan","time for personal loan processing"],
+        "responses":["Once you submit your application form and the required documents as per Bank's criteria, you can expect our approval and disbursal in 4 hours*, provided everything is in order. All loan approvals are at the sole discretion of the bank."],
+        "context_set":""
+
+    }
+    
+]
+}

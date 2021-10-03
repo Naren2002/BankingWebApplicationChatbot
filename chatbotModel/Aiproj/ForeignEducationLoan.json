@@ -1,0 +1,51 @@
+{"intents":[
+    {"tag":"borrow",
+     "patterns":["How much can i borrow in a foreign education loan?", "Max range to borrow in a foreign education loan",
+     "foreign education loan max money to borrow", "borrowing in foreign education loan","What is the maximum loan amount I can get for studying in foreign?"],
+     "responses":["To study abroad, the maximum loan amount you can get is up to Rs. 20 lakhs."],
+     "context_set":""  
+    },
+    {"tag":"eligibility",
+     "patterns":["How eligible am I for education loan?","What is the eligibility criteria for educational loans? ",
+        "What are the factors considered for taking a educational loan ?",
+         "How do you determine my eligibility for a educational loan ?"],
+     "responses":["If you are an Indian resident/citizen, have got admission for a job oriented professional / technical courses offered by reputed universities, MBA, MCA, MS, etc, Degree / diploma courses like aeronautical, shipping, etc provided these are recognized by competent regulatory bodies in India/abroad for the purpose of employment in India / abroad.Net Banking"],
+     "context_set":""   
+
+    },
+    {"tag":"coverage",
+     "patterns":["what expenses does the foreign education loan cover?","what expenses all does the foreign educational loan cover","Which course related expense does this loan cover ?","expenses coming under the foreign education loan"
+    ,"what all can i use the money for foreign education loan except courses","what non course fees are covered in foreign educational loan","expenses covered in foreign educational loan","expenses under foreign educational loan"],
+     "responses":["Apart from the basic course fee payable to the institution where you decide to study, the following expenses will be covered under the loan: •Exam/Library/Lab fees •Caution deposit / Refundable deposit asked by the institution / Building fund - supported by Institution bills / receipts •Purchase of Books / equipments / instrument / uniforms •Travel expenses / passage money for studies abroad •Purchase of computers - essential for completion of the course •Insurance •Miscellaneous expenses related to the course - like study tours, project work, thesis, etc."],
+     "context_set":""   
+
+    },
+    {"tag":"Courses",
+     "patterns":["which courses can i take for foreign educational loan"," foreign education loan available for what courses","courses alloted for foreign educational loan",
+    "coures available in foreign educational loan","courses i can avail foreign education loan for","what course can be taken for foreign educational loan"],
+     "responses":["You can take a Education Loan for foreign education on the following courses: •Management Courses (Full-Time) •Engineering Courses •Medicine - Graduation + Post Graduation •Masters in Computer Application ( MCA / MCM ) •Architecture •Hotel and Hospitality •Agriculture •Pure Science"],
+     "context_set":""   
+
+    },
+    {"tag":"Co-applicant",
+     "patterns":["coapplicant needed for educational loan?","do i need a guardian for educational loan","parents needed for educational loan?",
+        "coapplicant required in educational loan","any witness required for educational loan"],
+     "responses":["Yes a co applicant is required for all full time courses. Co-applicant could be Parent/ Guardian or Spouse/ Parent-in-law (if married)"],
+     "context_set":""
+    },
+    {"tag":"repay_time",
+     "patterns":["How long can take to repay foreign educational loan","how much time is there for foreign educational loan","tenure time for foreign educational loan","foreign educational loan repay time",
+        "how much time can we take to pay foreign educational loan","time alloted for repaying foreign educational loan"],
+     "responses":["The maximum tenure of the loan can be 7 years, including the Moratorium period."],
+     "context_set":""   
+    },
+    {"tag":"collateral educational loan",
+     "patterns":["What security do I need to provide to obtain a foreign educational Loan?","securities to submit for foreign educational loan","collateral to provide for foreign educational loan","collateral needed for foreign educational loan",
+        "security requirement for foreign educational loan"],   
+     "responses":["For loans up to Rs. 4 lakh - No collateral or Third Party Guarantee is required. For loans from Rs. 4 lakh to Rs. 7.5 lakh – No collateral required, however Third Party Guarantee is required. For loans above Rs. 7.5 lakh – collateral is required. You can choose from any of the following acceptable collaterals: • Residential Property, • HDFC Bank Fixed Deposit,• LIC/NSC/KVP "],   
+     "context_set":""   
+    }
+    
+]
+
+}

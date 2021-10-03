@@ -1,0 +1,48 @@
+
+
+<html>
+
+<%- include('adminHeader') %>
+
+<body class="body bodyLight">
+	<%- include('adminNav') %>
+<div class="addAccForm">
+	<h1 class='head'>Account Information</h1>
+	<form class="" action="/adminView" method="post">
+		<label>Enter account number<input class="inputAccInfoText inputAccInfoTextLight" placeholder="ex: 1234" type="text" name="accno"><br />
+		<input class = "btn btn-outline-light" type="submit" name="accsubmit" style="margin-top: 20px;"></label><br><br>
+
+	</form>
+
+	<table class="table table-hover table-striped table-light">
+		<thead>
+			<tr>
+				<th scope="col">Account Number</th>
+				<th scope="col">Holder name</th>
+				<th scope="col">Balance</th>
+			</tr>
+		</thead>
+		<% if (allAccsEjs.length == 0){ %>
+			<tr>
+				<th scope="col">No content to be displayed</th>
+				<th scope="col"></th>
+				<th scope="col"></th>
+			</tr>
+		<% } else{%>
+			<% for(var i = 0; i < allAccsEjs.length; i++){ %>
+				<tr>
+					<th scope = "col"> <%= allAccsEjs[i]["accNo"] %> </th>
+					<th scope = "col"> <%= allAccsEjs[i]["name"] %> </th>
+					<th scope = "col"> <%= allAccsEjs[i]["accBal"] %> </th>
+				</tr>
+				<% } %>
+		<% } %>
+
+
+	</table>
+
+</div>
+<script src="js/darkmode.js"></script>
+</body>
+
+</html>

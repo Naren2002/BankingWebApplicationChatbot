@@ -1,0 +1,32 @@
+{"intents":[
+    {"tag":"process time buisnessGrowth",
+     "patterns":["how long  for processing buisness growth  loan","time for my allocation of buisness growth loan","buisness growth  loan time for processing",
+        "how long for assigning a buisness growth loan","time for buisness growth loan processing","How long will it take for me to get a Business Growth Loan?"],
+     "responses":["Once you submit your application form and supporting documents, we shall give disbursal within 5* working days provided everything is in order. All loan approvals are at the sole discretion of the bank.* Terms and conditions apply. Loan at sole discretion of HDFC Bank limited. Subject to documentation and verification as per Banks requirement."],
+     "context_set":""
+    },
+    {"tag":"secuirity buisness growth",
+     "patterns":["What security do I need to provide to obtain a Business Growth Loan?","securities to submit for buisness growth loan","collateral to provide for buisness growth loan","collateral needed fro buisness growth loan",
+    "security requirement for buisness growth loan"],
+    "responses":["To obtain the Buisness growth loan, there is absolutely no need to provide any security or collateral."],
+     "context_set":""
+    },
+    {"tag":"Account for buisness growth",
+     "patterns":["what account is preferred for buisness growth loan","current/savings account best for buisness growth loan",
+        "which account is best for buisness growth loan and why?","is current/savings account good for buisness growth loan","best accounts for buisness growth loans"],
+     "responses":["You get preferred Processing Fee, priority processing and simpler documentation if you have a Current/Saving Account with HDFC Bank. This is taken into account at the time of disbursal of the loan. You can pay through Standing Instructions to debit your HDFC Bank Account with the EMI amount."],
+     "context_set":""   
+    },
+    {"tag":"early pay buisness growth",
+     "patterns":["can i repay buisness growth loan earlier?","early pay of buisness growth loan","buisness growth loan paying early",
+        "allowed to pay buisness growth loan earlier?","buisness growth loan paying early"],
+     "responses":["Yes, you can choose to repay your loan anytime after 6 months of taking the loan and after you have paid 06 EMIs along with applicable foreclosure charges. Please note Loan can be foreclosed by issuing a Demand draft / cheque at the branch; kindly note that cash beyond Rs. 49000/- will not be accepted for loan repayment against full closure/matured loan closure payment. Any payment above Rs. 49000/- should be made vide Account payee Cheque / Pay order /Demand draft."],
+     "context_set":""
+
+    }
+    
+
+    
+]
+
+}
